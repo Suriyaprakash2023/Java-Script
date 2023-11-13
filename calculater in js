@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>calculeter usiing in JS</title>
+    </head>
+<body>
+    <div>
+        <form name="calculater">
+            <input type="text" name="display"><br><br>
+            &nbsp;&nbsp;<input type="button" value="1" onclick="calculater.display.value=calculater.display.value +'1'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="2" onclick="calculater.display.value=calculater.display.value +'2'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="3" onclick="calculater.display.value=calculater.display.value +'3'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="+" onclick="calculater.display.value=calculater.display.value +'+'"> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            &nbsp;&nbsp;<input type="button" value="4" onclick="calculater.display.value=calculater.display.value +'4'">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="5" onclick="calculater.display.value=calculater.display.value +'5'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="6" onclick="calculater.display.value=calculater.display.value +'6'"> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="-" onclick="calculater.display.value=calculater.display.value +'-'"> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            &nbsp;&nbsp;<input type="button" value="7" onclick="calculater.display.value=calculater.display.value +'7'">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="8" onclick="calculater.display.value=calculater.display.value +'8'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="9" onclick="calculater.display.value=calculater.display.value +'9'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="*" onclick="calculater.display.value=calculater.display.value +'*'"> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            &nbsp;&nbsp;<input type="button" value="0" onclick="calculater.display.value=calculater.display.value +'0'">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="/" onclick="calculater.display.value=calculater.display.value +'/'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="." onclick="calculater.display.value=calculater.display.value +'.'"> &nbsp;&nbsp;&nbsp;
+            <input type="button" value="=" onclick="calculater.display.value=eval(calculater.display.value)">
+            <br><br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<input type="button" value="ClearAll" onclick="calculater.display.value=''">
+        </form>
+    </div>
+</body>
+    </html>
