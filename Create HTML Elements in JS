@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>append text in html page in js
+</title>
+</head>
+<body>
+    <div id="c">
+        
+    </div>
+    
+    <input id="chat">
+    <button onclick="send()">send</button><br><br>
+    
+
+    <script>
+        const mydiv=document.getElementById("c");
+       /* function send(){
+            const   chat=document.getElementById("chat").value;
+            const  para=document.createElement("p");
+            v=document.createTextNode(chat);
+            mydiv.append(v);
+
+        }*/
+        
+        function send(){
+            const   chat=document.getElementById("chat").value;
+            const  para=document.createElement("p");
+            para.textContent=chat;
+            mydiv.append(para);
+
+        }
+
+        
+    </script>
+</body>
+</html>
